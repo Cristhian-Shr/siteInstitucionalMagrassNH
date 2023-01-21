@@ -482,7 +482,7 @@ footer .brand p {
 }
 
 footer i {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--text-color-light);
 }
 
@@ -512,7 +512,7 @@ footer .social a:hover {
   padding: 0.5rem;
   clip-path: circle();
 
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 0;
 
   visibility: hidden;
@@ -636,7 +636,7 @@ footer .social a:hover {
 
   /* footer */
   footer.section {
-    padding: 3.75rem 0;
+    padding: 3.75rem 0 0 0;
   }
 
   footer .container {
@@ -647,6 +647,16 @@ footer .social a:hover {
 
   footer .logo {
     font-size: 2.25rem;
+  }
+
+  .footer-logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logotipo {
+    width: 200px;
+    border-bottom: none;
   }
 }
 /* large devices: 1023 > */
